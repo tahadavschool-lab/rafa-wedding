@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: rafa-wedding
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./
