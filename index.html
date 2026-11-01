@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#061711" />
+    <meta name="description" content="Wedding invitation of Rafa Khan and Mohd. Ashraf" />
+    <title>Rafa Khan & Mohd. Ashraf — Wedding Invitation</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader" class="loader" aria-label="Wedding invitation opening">
+      <div class="loader-backdrop"></div>
+      <div class="invitation-book">
+        <div class="book-inner">
+          <div class="inside-left"></div>
+          <div class="inside-right"></div>
+          <div class="inside-content">
+            <p class="arabic">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+            <p class="cover-kicker">WITH THE BLESSINGS OF ALLAH</p>
+            <h2>Rafa Khan</h2>
+            <div class="inside-amp">&amp;</div>
+            <h2>Mohd. Ashraf</h2>
+            <div class="cover-line"></div>
+            <p>01 NOVEMBER 2026 · 8:00 PM</p>
+          </div>
+
+          <div class="cover-panel panel-left">
+            <div class="panel-art"></div>
+          </div>
+
+          <div class="cover-panel panel-right">
+            <div class="panel-art right-art"></div>
+          </div>
+
+          <button id="openBtn" class="seal-button" aria-label="Open wedding invitation">
+            <span class="seal-ring">✦</span>
+            <strong>OPEN</strong>
+            <small>INVITATION</small>
+          </button>
+        </div>
+      </div>
+      <p class="open-hint">Tap the seal to open your invitation</p>
+    </div>
+
+    <div class="page-ambient" aria-hidden="true"></div>
+    <div class="particles" aria-hidden="true"></div>
+
+    <header class="hero section">
+      <div class="hero-architecture" aria-hidden="true"></div>
+      <div class="moon"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Bismillah-ir-Rahman-ir-Raheem</p>
+        <p class="arabic hero-arabic">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+        <div class="ornament"><span></span> ✦ <span></span></div>
+        <p class="small-caps">A WEDDING CELEBRATION</p>
+        <h1>Rafa <span>&amp;</span> Ashraf</h1>
+        <p class="hero-subtitle">Two hearts. One beautiful beginning. A lifetime, Insha'Allah.</p>
+        <a href="#invitation" class="scroll-cue">SCROLL TO DISCOVER <span>↓</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section id="invitation" class="section invitation-section patterned-section">
+        <div class="arch-frame reveal">
+          <div class="arch-inner">
+            <p class="arabic gold-text">الحمد لله</p>
+            <p class="small-caps">IN THE NAME OF ALLAH</p>
+            <h2>A Blessed Beginning</h2>
+            <p class="lead">
+              In the name of Allah, the Most Merciful, the Most Compassionate, we request the
+              honor of your presence at the Nikah ceremony of
+            </p>
+            <div class="names-script">Rafa <i>&amp;</i> Ashraf</div>
+            <p class="body-copy">
+              As two hearts begin a beautiful journey together, your presence and prayers will
+              make this blessed occasion even more special.
+            </p>
+            <div class="gold-rule"></div>
+            <p class="parents">
+              With the blessings of<br />
+              <strong>Mrs. Afsana Khan &amp; Md. Jameel Khan</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section scratch-section">
+        <div class="section-heading reveal">
+          <p class="small-caps gold-text">A LITTLE SURPRISE</p>
+          <h2>Scratch to Reveal</h2>
+          <div class="ornament"><span></span> ✦ <span></span></div>
+        </div>
+
+        <div class="scratch-card reveal" id="scratchCard">
+          <div class="scratch-reveal-content">
+            <p class="small-caps">THE BLESSED DAY</p>
+            <div class="scratch-date">01 NOVEMBER 2026</div>
+            <div class="scratch-time">8:00 PM · BH AREA · JAMSHEDPUR</div>
+            <p class="scratch-dua">Please keep the couple in your duas.</p>
+          </div>
+          <canvas id="scratchCanvas" aria-label="Scratch here to reveal the wedding date"></canvas>
+          <div class="scratch-instruction" id="scratchInstruction">✦ SCRATCH HERE ✦</div>
+        </div>
+
+        <p class="scratch-progress" id="scratchProgress">0% revealed</p>
+      </section>
+
+      <section class="section events-section">
+        <div class="section-heading reveal">
+          <p class="small-caps">THE OCCASION</p>
+          <h2>Save the Date</h2>
+          <div class="ornament"><span></span> ✦ <span></span></div>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="event-icon">☾</div>
+            <p class="small-caps gold-text">THE NIKAH</p>
+            <h3>01 November 2026</h3>
+            <p class="time">8:00 PM</p>
+            <div class="event-divider"></div>
+            <p>BH Area<br />Jamshedpur</p>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-icon">✦</div>
+            <p class="small-caps gold-text">DINNER</p>
+            <h3>01 November 2026</h3>
+            <p class="time">9:00 PM</p>
+            <div class="event-divider"></div>
+            <p>BH Area<br />Jamshedpur</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section countdown-section">
+        <div class="countdown-glow"></div>
+        <div class="section-heading reveal">
+          <p class="small-caps">UNTIL THE BLESSED DAY</p>
+          <h2>Counting Every Moment</h2>
+        </div>
+
+        <div id="countdown" class="countdown reveal">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+      </section>
+
+      <section class="section final-section">
+        <div class="final-content reveal">
+          <p class="arabic">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم</p>
+          <p class="quote">
+            “And among His signs is that He created for you spouses from among yourselves so
+            that you may find tranquility in them; and He placed between you affection and mercy.”
+          </p>
+          <p class="reference">— Qur'an 30:21</p>
+          <div class="ornament"><span></span> ✦ <span></span></div>
+          <h2>Rafa &amp; Ashraf</h2>
+          <p class="small-caps">01 NOVEMBER 2026 · 8:00 PM</p>
+          <p class="dua">Please remember us in your duas.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>With love, prayers &amp; blessings</p>
+      <span>✦</span>
+    </footer>
+
+    <button id="musicBtn" class="music-btn" aria-label="Toggle background audio">♪</button>
+    <audio id="bgAudio" loop preload="auto">
+      <source src="assets/tere_bina_na_gurzara_ae.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
